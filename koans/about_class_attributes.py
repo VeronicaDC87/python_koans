@@ -13,7 +13,7 @@ class AboutClassAttributes(Koan):
 
     def test_objects_are_objects(self):
         fido = self.Dog()
-        self.assertEqual(__, isinstance(fido, object))
+        self.assertEqual(True, isinstance(fido, object))
 
     def test_classes_are_types(self):
         self.assertEqual(__, self.Dog.__class__ == type)
