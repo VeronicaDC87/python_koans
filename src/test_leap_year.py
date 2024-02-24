@@ -7,4 +7,4 @@ def test_is_not_leap_year():
 def test_is_divisible_by_4():
     assert is_leap_year(2008) == True 
     assert is_leap_year(2012) == True 
-    
+    assert is_leap_year(2016) == True
