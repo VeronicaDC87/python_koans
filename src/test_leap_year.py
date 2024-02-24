@@ -1,7 +1,5 @@
-def is_leap_year(year):
-    if year == 1996:
-        return True
-    return False
+from src.is_leap_year import is_leap_year
+
 
 def test_is_not_leap_year():
     assert is_leap_year(1957) == False 
